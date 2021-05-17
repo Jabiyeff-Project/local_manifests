@@ -7,7 +7,7 @@
   <!-- Special -->
   <!--<project path="device/xiaomi/santoni" name="device-santoni" remote="santoni" />-->
   <project path="vendor/xiaomi" name="vendor-santoni" remote="santoni" />
-  <!--<project path="kernel/xiaomi/msm8937" name="Jabiyeff-Project/kernel-santoni" remote="santoni" />-->
+  <project path="kernel/xiaomi/santoni" name="kernel-santoni" remote="santoni" />
 
   <!-- Hals -->
   <project path="hardware/qcom-caf/msm8937/audio" name="android_hardware_qcom_audio" remote="santoni" />
