@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="hals" fetch="https://github.com/Jabiyeff-Project/" revision="refs/heads/ruby" />
+  <remote name="display" fetch="https://github.com/Jabiyeff-Project/" revision="refs/heads/11.0-9.6,3" />
   <remote name="santoni" fetch="https://github.com/Jabiyeff-Project/" revision="refs/heads/11.0" />
   <remote name="github2" fetch="https://github.com/" />
 
@@ -12,7 +13,7 @@
 
   <!-- Hals -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="hals" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="hals" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="display" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="hals" />
 
   <!-- Sepolicy -->
