@@ -20,7 +20,4 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8937/Android.mk" />
   </project>
 
-  <!-- Proton Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github2" revision="ruby-12" clone-depth="1" />
-
 </manifest>
